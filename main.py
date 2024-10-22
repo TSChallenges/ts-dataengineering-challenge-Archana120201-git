@@ -3,7 +3,7 @@ from transform import transform_data
 from load import load_data
 
 def main():
-    # File paths
+    ## File paths
     csv_file = 'data/bank_transactions_dataset.csv'
     db_name = 'etl_database.db'
     table_name = 'cleaned_data'

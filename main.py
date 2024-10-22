@@ -8,7 +8,7 @@ def main():
     db_name = 'etl_database.db'
     table_name = 'cleaned_data'
     
-    ## Step 1: Extract data
+    # Step 1: Extract data
     data = extract_data(csv_file)
     
     if data is not None:
